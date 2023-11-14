@@ -12,6 +12,10 @@
 #   public *;
 #}
 
+
+# if you use firebase-database, uncommnet this
+-keepclassmembers class com.app.damnvulnerable.**{*;}
+
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
 -keepattributes SourceFile,LineNumberTable
