@@ -30,4 +30,3 @@
 -printusage usage.txt
 -printconfiguration config.txt
 
--keep class com.app.damnvulnerablebank.**{*;}
