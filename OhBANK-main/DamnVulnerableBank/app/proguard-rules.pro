@@ -14,7 +14,7 @@
 
 
 # if you use firebase-database, uncommnet this
--keepclassmembers class com.app.damnvulnerable.**{*;}
+#-keepclassmembers class com.app.damnvulnerable.**{*;}
 
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
@@ -32,7 +32,5 @@
 
 #if you use firebase
 -keep class com.google.firebase.**{*;}
--keep class io.grpc.**{*;}
--keepattributes Signature
 #firebase SDK 초기화 코드 보존
 -keep class androidx.**{*;}
