@@ -30,3 +30,9 @@
 -printusage usage.txt
 -printconfiguration config.txt
 
+#if you use firebase
+-keep class com.google.firebase.**{*;}
+-keep class io.grpc.**{*;}
+-keepattributes Signature
+#firebase SDK 초기화 코드 보존
+-keep class androidx.**{*;}
